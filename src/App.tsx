@@ -581,7 +581,7 @@ function App() {
                   <div className="p-3 bg-gray-800/50 rounded-lg border border-purple-500/30 neon-card">
                     <Mail className="w-5 h-5 text-purple-400" />
                   </div>
-                  <span className="text-gray-300 neon-text">ayush.negi@example.com</span>
+                  <span className="text-gray-300 neon-text">shubhaggarwal.2003@gmail.com</span>
                 </div>
                 <div className="flex items-center space-x-4">
                   <div className="p-3 bg-gray-800/50 rounded-lg border border-purple-500/30 neon-card">
@@ -593,7 +593,7 @@ function App() {
                   <div className="p-3 bg-gray-800/50 rounded-lg border border-purple-500/30 neon-card">
                     <Linkedin className="w-5 h-5 text-purple-400" />
                   </div>
-                  <span className="text-gray-300 neon-text">linkedin.com/in/ayushnegi</span>
+                  <span className="text-gray-300 neon-text">https://www.linkedin.com/in/shubh-aggarwal-cs-enthusiast/</span>
                 </div>
               </div>
             </div>
@@ -648,7 +648,7 @@ function App() {
       <footer className="py-8 px-4 border-t border-purple-500/30 bg-gray-900/50 backdrop-blur-sm">
         <div className="max-w-6xl mx-auto text-center">
           <p className="text-gray-400 neon-text">
-            © 2025 Ayush Negi. Built with React and Tailwind CSS.
+            © 2025 Shubh Aggarwal. Built with React and Tailwind CSS.
           </p>
         </div>
       </footer>
