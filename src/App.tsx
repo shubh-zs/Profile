@@ -51,7 +51,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
             <div className="text-2xl font-bold text-blue-400">
-              Ayush Negi
+              Shubh Aggarwal
             </div>
             
             {/* Desktop Menu */}
@@ -114,7 +114,7 @@ function App() {
             <h1 className="text-5xl md:text-7xl font-bold mb-4 leading-tight">
               Hi, I'm<br />
               <span className="cyber-glow-enhanced text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-purple-400 to-indigo-400">
-                Ayush Negi
+                Shubh Aggarwal
               </span>
             </h1>
             <p className="text-xl md:text-2xl text-purple-300 mb-2 cyber-text">
@@ -235,7 +235,7 @@ function App() {
               </div>
               <div className="flex items-center gap-4">
                 <Mail className="text-purple-400" size={20} />
-                <span className="text-gray-300 neon-text">ayush.negi@example.com</span>
+                <span className="text-gray-300 neon-text">shubhaggarwal.2003@gmail.com</span>
               </div>
             </div>
             <div className="space-y-6">
