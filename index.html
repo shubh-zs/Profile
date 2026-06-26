@@ -1,13 +1,142 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Shubh Aggarwal - Full Stack Developer</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shubh Aggarwal — ASDET &amp; AI Systems Engineer</title>
+  <meta name="description" content="Portfolio of Shubh Aggarwal — Automation-focused SDET specializing in backend validation, scalable automation, and AI-driven enterprise solutions." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- WebGL canvas (fixed, behind everything) -->
+  <canvas id="webgl"></canvas>
+
+  <!-- ── Navigation ──────────────────────────────────────────────────── -->
+  <nav>
+    <div class="nav-logo">SA</div>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- ── Hero ────────────────────────────────────────────────────────── -->
+  <section id="hero">
+    <div class="hero-content">
+      <p class="hero-tag">ASDET &nbsp;·&nbsp; Automation &nbsp;·&nbsp; AI Systems</p>
+      <h1>Shubh<br><span>Aggarwal</span></h1>
+      <p class="hero-sub">
+        Building automation frameworks &amp; AI-driven systems at the intersection
+        of quality engineering, backend development, and applied AI.
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn-primary">View Work</a>
+        <a href="#contact"  class="btn-ghost">Get in Touch</a>
+        <a data-resume href="#" download class="btn-resume-hero">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Resume
+        </a>
+      </div>
+    </div>
+    <div class="scroll-hint">
+      <span>scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ── About ────────────────────────────────────────────────────────── -->
+  <section id="about">
+    <div class="container">
+      <div class="section-label">/ about</div>
+      <div class="about-grid">
+
+        <div class="about-text">
+          <h2>Automation engineer.<br>AI builder.<br>QA at the core.</h2>
+          <p>
+            I'm an ASDET at <strong>Innovaccer</strong> — a healthcare AI company — where I own
+            end-to-end automation architecture, ship intelligent data systems, and redefine what
+            quality engineering looks like in a modern AI stack.
+          </p>
+          <p>
+            My work spans the full system: UI, API, database, and infrastructure. I've built
+            RAG systems over messy enterprise datasets, deployed org-wide bots, and led a complete
+            framework migration from Java to <strong>Playwright + TypeScript</strong>.
+          </p>
+          <p>
+            I sit at a rare intersection — automation architecture, backend engineering, and applied
+            AI — and I bring an ownership mindset to everything I touch.
+          </p>
+        </div>
+
+        <!-- Injected by render.js from CONFIG.stats -->
+        <div class="about-stats"></div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Skills ───────────────────────────────────────────────────────── -->
+  <section id="skills">
+    <div class="container">
+      <div class="section-label">/ skills</div>
+      <h2>Tech Stack</h2>
+      <!-- Injected by render.js from CONFIG.skills -->
+      <div class="skills-grid"></div>
+    </div>
+  </section>
+
+  <!-- ── Projects ─────────────────────────────────────────────────────── -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-label">/ projects</div>
+      <h2>Selected Work</h2>
+      <!-- Injected by render.js from CONFIG.projects -->
+      <div class="projects-grid"></div>
+    </div>
+  </section>
+
+  <!-- ── Contact ──────────────────────────────────────────────────────── -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-label">/ contact</div>
+      <div class="contact-content">
+        <h2>Let's build<br>something great.</h2>
+        <p>
+          Open to conversations about automation architecture, AI systems engineering,
+          and roles at the intersection of quality and backend. Delhi-based, remote-friendly.
+        </p>
+        <!-- Injected by render.js from CONFIG.contact -->
+        <div class="contact-links"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Footer ───────────────────────────────────────────────────────── -->
+  <footer>
+    <span>Shubh Aggarwal</span>
+    <p>Built with Three.js &amp; custom vertex shaders &nbsp;·&nbsp; Delhi, India</p>
+  </footer>
+
+  <!-- ── Floating Resume FAB ──────────────────────────────────────────── -->
+  <a data-resume href="#" download class="resume-fab" aria-label="Download Resume">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+    <span>Resume</span>
+  </a>
+
+  <!-- Three.js r128 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="js/config.js"></script>
+  <script src="js/render.js"></script>
+  <script src="js/shader.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
 </html>
